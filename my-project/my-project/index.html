@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sudheendrapandi R | Freelance Digital Growth</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Plus+Jakarta+Sans:wght@600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<canvas id="bgCinema" class="bg-cinema"></canvas>
+
+<header>
+  <div class="nav-wrap">
+    <div class="brand">Sudheendrapandi R</div>
+    <nav class="nav-links" id="navLinks">
+      <a href="#home" class="active">Home</a>
+      <a href="#services">Services</a>
+      <a href="#about">About</a>
+    </nav>
+    <a href="#contact" class="btn btn-primary" style="padding:11px 22px;">Let's Talk</a>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle menu"><span></span><span></span><span></span></button>
+  </div>
+</header>
+
+<!-- HERO -->
+<section class="hero" id="home">
+  <div class="container hero-grid">
+    <div>
+      <span class="eyebrow">Freelance Digital Growth</span>
+      <h1>Turn Your Business From <span>0 to Hero.</span></h1>
+      <p>I help businesses build, grow, and manage their shops, websites, and online stores with the right strategy, compelling content, and consistent execution.</p>
+      <div class="hero-ctas">
+        <a href="#contact" class="btn btn-primary">Start Your Growth Journey</a>
+        <a href="#services" class="btn btn-outline">Explore Services</a>
+      </div>
+      <ul class="hero-tags">
+        <li><span class="dot">✓</span> Strategy</li>
+        <li><span class="dot">✓</span> Content</li>
+        <li><span class="dot">✓</span> Websites</li>
+        <li><span class="dot">✓</span> Online Stores</li>
+        <li><span class="dot">✓</span> Management</li>
+      </ul>
+    </div>
+
+    <div class="hero-visual">
+      <div class="float-card">
+        <div class="label">Growth Overview</div>
+        <svg width="150" height="46" viewBox="0 0 150 46" fill="none">
+          <path d="M2 40 C 20 38, 35 30, 50 28 C 65 26, 80 32, 95 20 C 110 10, 125 6, 148 4" stroke="#5B4EF2" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+        </svg>
+        <div class="stat">+125%</div>
+        <div class="stat-label">Website Traffic</div>
+      </div>
+      <div class="hero-illustration">
+        <img src="images/hero-illustration.svg" alt="Growth dashboard illustration">
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- WHAT I DO -->
+<section class="section" id="services">
+  <div class="container">
+    <div class="section-head">
+      <span class="eyebrow">What I Do</span>
+      <h2>Everything Your Business Needs to Grow Online.</h2>
+      <p>From your first idea to a fully managed digital presence, I help turn your business goals into practical digital solutions.</p>
+    </div>
+    <div class="cards-4">
+      <div class="card">
+        <div class="icon-box purple">🎯</div>
+        <h3>Business Strategy</h3>
+        <p>Create a clear digital strategy based on your business, audience, goals, and market.</p>
+      </div>
+      <div class="card">
+        <div class="icon-box blue">🖥️</div>
+        <h3>Websites & Online Stores</h3>
+        <p>Build or improve professional websites and online stores designed to attract visitors and convert them into customers.</p>
+      </div>
+      <div class="card">
+        <div class="icon-box green">✏️</div>
+        <h3>Content & Scripting</h3>
+        <p>Create engaging content ideas, scripts, and messaging that communicate your value and capture attention.</p>
+      </div>
+      <div class="card">
+        <div class="icon-box orange">⚙️</div>
+        <h3>Digital Management</h3>
+        <p>Keep your digital platforms updated, optimized, and moving forward with consistent management.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT / LEAD FORM -->
+<section class="contact" id="contact">
+  <div class="container contact-grid">
+    <div id="about">
+      <h2>Ready to Take Your Business to the Next Level?</h2>
+      <p>Tell me about your business, your current challenge, and where you want to go. Let's find the right strategy to get you there.</p>
+      <div class="direct-label">Prefer to talk directly?</div>
+      <div class="direct-item">
+        <span class="ic">📞</span> +91 93805 12458
+      </div>
+      <div class="direct-item">
+        <span class="ic">✉️</span> sudheendrapandi93@gmail.com
+      </div>
+    </div>
+
+    <form class="lead-form" id="leadForm">
+      <div class="form-row">
+        <div class="field">
+          <label for="name">Full Name</label>
+          <input type="text" id="name" name="name" placeholder="Full Name" required>
+        </div>
+        <div class="field">
+          <label for="businessName">Business Name</label>
+          <input type="text" id="businessName" name="businessName" placeholder="Business Name" required>
+        </div>
+      </div>
+      <div class="form-row">
+        <div class="field">
+          <label for="email">Email Address</label>
+          <input type="email" id="email" name="email" placeholder="Email Address" required>
+        </div>
+        <div class="field">
+          <label for="phone">Phone Number</label>
+          <input type="tel" id="phone" name="phone" placeholder="Phone Number" required>
+        </div>
+      </div>
+      <button type="submit" class="btn btn-primary" id="submitBtn">Start My Growth Journey</button>
+      <div class="form-msg" id="formMsg"></div>
+    </form>
+  </div>
+</section>
+
+<footer>
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <div class="brand">Sudheendrapandi R</div>
+        <p>Helping businesses build, grow, and manage stronger digital experiences.</p>
+        <div class="social">
+          <a href="https://www.linkedin.com/in/sudheendrapandi-r">in</a>
+          <a href="#" aria-label="Instagram">◎</a>
+          <a href="#" aria-label="WhatsApp">☎</a>
+        </div>
+      </div>
+      <div>
+        <h4>Explore</h4>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#about">About</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Services</h4>
+        <ul>
+          <li><a href="#services">Business Strategy</a></li>
+          <li><a href="#services">Websites</a></li>
+          <li><a href="#services">Online Stores</a></li>
+          <li><a href="#services">Content & Scripting</a></li>
+          <li><a href="#services">Digital Management</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Contact</h4>
+        <div class="footer-contact-item">📞 +91 93805 12458</div>
+        <div class="footer-contact-item">✉️ sudheendrapandi93@gmail.com</div>
+      </div>
+    </div>
+    <div class="footer-bottom">© 2026 Sudheendrapandi R. All rights reserved.</div>
+  </div>
+</footer>
+
+<script src="js/scroll-cinema.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>
